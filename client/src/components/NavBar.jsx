@@ -44,11 +44,11 @@ function NavBar() {
                         <AiOutlineHome className="ms-3 me-1"/>
                         <a className="nav-opt fs-5 text-decoration-none" href={`/`}> Home</a>
                         <AiOutlineUser className="ms-3 me-1"/>
-                        <a className="nav-opt fs-5 text-decoration-none" href={`/perfil/${idUser}`}> Perfil</a>
+                        <a className="nav-opt fs-5 text-decoration-none" href={`/perfil/${idUser}`}> Profile</a>
                         <AiOutlineMessage className="ms-3 me-1"/>
                         <a className="nav-opt fs-5 text-decoration-none" href={`/chat`}>Chat</a>
                         <AiOutlineLogout className="ms-3 me-1"/>
-                        <a className="nav-opt fs-5 text-decoration-none" href="." onClick={logout}>Salir</a>
+                        <a className="nav-opt fs-5 text-decoration-none" href="." onClick={logout}>Logout</a>
                     </div>
                         
                         <div className="d-flex align-items-center ms-auto w-25">

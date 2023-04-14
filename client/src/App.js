@@ -32,10 +32,8 @@ function App() {
 					<Route exact path="*" element={user ? <Navigate to="/login" /> : <Login />} />
 				</Routes>
 			</BrowserRouter>
-
 		</>
 	);
 }
-
 
 export default App;
